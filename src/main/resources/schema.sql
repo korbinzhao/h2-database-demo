@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS  EMPLOYEE
+        (
+        id NUMBER(10) NOT NULL,
+        name VARCHAR2(50) NOT NULL,
+        );
+
+CREATE TABLE IF NOT EXISTS  GIRL
+    (
+    id BIGINT AUTO_INCREMENT,
+    cupsize VARCHAR(20) NOT NULL,
+    age NUMBER(10) NOT NULL,
+    money NUMBER(10) NOT NULL,
+    );
